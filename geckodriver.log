@@ -1,0 +1,20 @@
+1646401928053	geckodriver	INFO	Listening on 127.0.0.1:52913
+1646401928560	mozrunner::runner	INFO	Running command: "/opt/firefox-developer/firefox" "--marionette" "--remote-debugging-port" "49283" "-no-remote" "-profile" "/tmp/rust_mozprofileQSrO7W"
+
+(firefox-aurora:18544): Gtk-WARNING **: 10:52:10.176: Could not find the icon 'window-minimize-symbolic'. The 'hicolor' theme
+was not found either, perhaps you need to install it.
+You can get a copy from:
+	http://icon-theme.freedesktop.org/releases
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1646401931688	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQSrO7W/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49283/devtools/browser/b2dc5fd4-a997-41d4-a3e2-4ea10df782f9
+1646401940703	Marionette	INFO	Listening on port 34155
+1646401940865	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.instagram.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: can't access property "getRecipesForHost", gRecipeManager is null
+1646401961163	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.

@@ -16,13 +16,13 @@ senha = getpass.getpass("Senha ")
 class BotInstagram():
     def __init__(self):
         ## Navegador Chome
-        # self.driver = webdriver.Chrome('/home/mardio/PYTHON/intagram/chromedriver')
-        # self.ser = Service("/home/mardio/PYTHON/intagram/chromedriver")
+        # self.driver = webdriver.Chrome('chromedriver')
+        # self.ser = Service("chromedriver")
         # self.op = webdriver.ChromeOptions()
         # self.driver = webdriver.Chrome(service=self.ser, options=self.op)
         
         ## Navegador Firefox Developer
-        self.new_driver_path = '/home/mardio/PYTHON/intagram/geckodriver'
+        self.new_driver_path = 'geckodriver'
         self.new_binary_path = '/opt/firefox-developer/firefox'
 
         self.ops = options()

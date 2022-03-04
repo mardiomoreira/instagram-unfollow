@@ -1,11 +1,12 @@
 from fileinput import close
 import instaloader
+import getpass
 
 # Obter instância
 loader = instaloader.Instaloader()
 #USER= 'marciomoreirabomfimsilva'
-USER= 'mardio_moreira'
-PASSWORD = 'G@L120486@@'
+USER= input('Usuario Instagram: ')
+PASSWORD = getpass.getpass("Senha ")
 # Faça login usando as credenciais
 loader.login(USER, PASSWORD)
 # Use a classe Profile para acessar os metadados da conta
